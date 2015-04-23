@@ -10,41 +10,37 @@
     <link href="./wikimap_files/wikimap.css" rel="stylesheet" type="text/css">
     <!-- The Google MAP Engine plays a significant role in this application. Thank you Google! (maps.google.com) -->
     <script src="./wikimap_files/jquery-2.1.3.min.js"></script>
-    <script src="./wikimap_files/GoogleHash.js" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/GoogleAPI.js" language="JavaScript" type="text/javascript"></script>
+    <script src="./wikimap_files/GoogleHash.js"></script>
+    <script src="./wikimap_files/GoogleAPI.js"></script>
     <script src="./wikimap_files/maps.16.js" type="text/javascript"></script>
-    <script src="./wikimap_files/IMSTiles.js" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/MITAPI.js" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/MITMapsNamespace.js"></script> 
- 
-    <script src="./wikimap_files/MITAPI-addon.js" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/misc.js" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/agent.js" language="JavaScript" type="text/javascript">
+    <script src="./wikimap_files/IMSTiles.js"></script>
+    <script src="./wikimap_files/MITAPI.js"></script>
+    <script src="./wikimap_files/MITMapsNamespace.js"></script>
+    <script src="./wikimap_files/MITAPI-addon.js"></script>
+    <script src="./wikimap_files/misc.js"></script>
+    <script src="./wikimap_files/agent.js">
     ///// AGENT CODE /////
     </script>
-    <script src="./wikimap_files/contourAndRouteDisplay.js" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/Location.js" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/wikiicons.php" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/dropdown.js" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/Browser.js" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/PreloadImages.js" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/Obj.php" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/Obj(1).php" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/Obj(2).php" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/Obj(3).php" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/MarkerBubble.js" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/category.js" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/scaling.js" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/userMessage.js" language="JavaScript" type="text/javascript"></script>
-    <script src="./wikimap_files/wikijsfunctions.js" language="JavaScript" type="text/javascript"></script>
+    <script src="./wikimap_files/contourAndRouteDisplay.js"></script>
+    <script src="./wikimap_files/Location.js"></script>
+    <script src="./wikimap_files/wikiicons.php"></script>
+    <script src="./wikimap_files/dropdown.js"></script>
+    <script src="./wikimap_files/Browser.js"></script>
+    <script src="./wikimap_files/PreloadImages.js"></script>
+    <script src="./wikimap_files/Obj.php"></script>
+    <script src="./wikimap_files/Obj(1).php"></script>
+    <script src="./wikimap_files/Obj(2).php"></script>
+    <script src="./wikimap_files/Obj(3).php"></script>
+    <script src="./wikimap_files/MarkerBubble.js"></script>
+    <script src="./wikimap_files/category.js"></script>
+    <script src="./wikimap_files/scaling.js"></script>
+    <script src="./wikimap_files/userMessage.js"></script>
+    <script src="./wikimap_files/wikijsfunctions.js"></script>
     <!-- ben is testing something -->
     <!-- yoni's edits (start) -->
-    <script src="./wikimap_files/xmaps.1a.js" language="JavaScript" type="text/javascript"></script>
+    <script src="./wikimap_files/xmaps.1a.js"></script>
     <script src="./wikimap_files/MainScript.js"></script>
-    
     <!-- (end) -->
-    
-
 </head>
 
 <body>
@@ -258,7 +254,7 @@
             </tbody>
         </table>
     </div>
-    <script language="JavaScript" type="text/javascript">
+    <script>
     //<![CDATA[
 
     populateLists();
@@ -271,19 +267,12 @@
     var listenMouseDown = GEvent.addListener(map, "mousedown", function() {
         hideDropDownNow();
     });
-
-    var ieCor = 0;
-    if (!(Browser.isIE)) {
-        document.getElementById("ieDiv").style.display = "none";
-        document.getElementById("mozDiv").style.display = "";
-    } else {
-        ieCor = 0.5;
-    }
     </script><img src="./wikimap_files/mit-transparent-512.gif" style="position: absolute; visibility: hidden; top: -200px; left: -200px;">
-    <script src="./wikimap_files/PrefetchTransparent.js" language="JavaScript" type="text/javascript"></script>
-    <script language="JavaScript" type="text/javascript">
+    <script src="./wikimap_files/PrefetchTransparent.js"></script>
+    <script>
     map.centerAndZoom(new GPoint(709721, 495700), 11);
-    </script><img src="./wikimap_files/maps" style="position: absolute; visibility: hidden; top: -10px; left: -10px; width: 1px; height: 1px;">
+    </script>
+    <img src="./wikimap_files/maps" style="position: absolute; visibility: hidden; top: -10px; left: -10px; width: 1px; height: 1px;">
 </body>
 
 </html>
