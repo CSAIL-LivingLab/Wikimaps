@@ -1,0 +1,107 @@
+.linkout {
+	cursor: default;
+	display: block;
+	font-family:arial;
+	font-size:11px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.box2 {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.box2old {
+	border-color: #CCCCCC #333333 #333333 #CCCCCC;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	background-color: #CCCCCC;
+}
+
+.box3 {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+}
+
+.box3old {
+	border-color: #CCCCCC #333333 #333333 #CCCCCC;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: #CCCCCC;
+}
+
+.addbutton {
+
+	font-family:Arial;
+	font-size: 8pt;
+	font-style: normal;
+	height:75px;
+	width:75px;
+}
+
+.addbutton2 {
+	border-color: #CCCCCC #333333 #333333 #CCCCCC;
+	color: #000000;
+	font-family:Arial;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: #CCCCCC;
+	height:75px;
+	width:75px;
+	border:1px outset gray;
+}
+
+.catbutton {
+	font-family:Arial;
+	font-size: 8pt;
+	font-style: normal;
+ 	width:45px;
+	height:45px;
+}
+
+.catbutton2 {
+	border-color: #CCCCCC #333333 #333333 #CCCCCC;
+	color: #000000;
+	font-family:Arial;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: #CCCCCC;
+ 	width:45px;
+	height:45px;
+	border:1px outset gray;
+}
+
+.catbuttonD {
+	border-color: #CCCCCC #333333 #333333 #CCCCCC;
+	color: #000000;
+	font-family:Arial;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: #666666;
+ 	width:45px;
+	height:45px;
+	border:1px inset gray;
+}
+
+.popup {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	line-height: 10px;
+}
+
+.expanded {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 14px;
+}

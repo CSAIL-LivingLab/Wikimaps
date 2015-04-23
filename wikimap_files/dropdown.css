@@ -1,0 +1,75 @@
+.linkout {
+	cursor: default;
+	display: block;
+	font-family:arial;
+	font-size:11px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.tag {
+	position:relative;
+	left:5px;
+	width:336px;
+	height:14px;
+}
+
+.tagH {
+	position:relative;
+	left:5px;
+	width:336px;
+	cursor:pointer;
+	color:#FFFFFF;
+	background-color: #0066FF;
+	height:14px;
+}
+
+.room {
+	width:336px;
+	height:14px;
+}
+
+.roomH {
+	width:336px;
+	cursor:pointer;
+	color:#FFFFFF;
+	background-color: #0066FF;
+	height:14px;
+}
+
+.floor {
+	width:336px;
+	height:14px;
+}
+
+.floorH {
+	width:336px;
+	cursor:pointer;
+	color:#FFFFFF;
+	background-color: #0066FF;
+	height:14px;
+}
+
+.building {
+	width:363px;
+	height:14px;
+}
+
+.buildingH {
+	width:363px;
+	cursor:pointer;
+	color:#FFFFFF;
+	background-color: #0066FF;
+	height:14px;
+}
+
+.nomatches {
+	width:375px;
+	height:14px;
+}
+
+.plusminus {
+	position:absolute;
+	left:-17px;
+	top:-2px;
+}
