@@ -25,18 +25,6 @@ function Agent(url, callback, args) {
                 request = null;
             }
         } else alert("Unable to create new XMLHTTPRequest object.");
-    } else if (window.ActiveXObject) {
-        request = new ActiveXObject("Microsoft.XMLHTTP");
-        if (request) {
-            try {
-            	request.onreadystatechange = _agentCallback;
-            	request.open('GET', url, true);
-            	request.send();
-            } catch(e) {
-                alert("Unable to send request for data:\n\n" + e.toString());
-                request = null;
-            }
-        } else alert("Unable to create new Microsoft.XMLHTTP ActiveXObject.");
     } else alert("Unable to send request for data. Your browser is not supported.");
     
 }
