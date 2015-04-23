@@ -145,7 +145,8 @@ function fireAgent(token) {
 	
 	var type = document.getElementById("select_formfield").value;
 	//prompt("","returnMatches.php?space="+token+"&type="+type);
-	Agent("dropdown/returnMatches.php?space="+token+"&type="+type, parseResult, []);
+
+	// Agent("dropdown/returnMatches.php?space="+token+"&type="+type, parseResult, []);
 		
 	lasttoken = token;
 }
